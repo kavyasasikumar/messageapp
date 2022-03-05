@@ -9,7 +9,7 @@ function Chat() {
   const scroll = useRef();
   const [chat, setChat] = useState([]);
   useEffect(() => {
-    db.collection("message")
+    db.collection("chat")
       .orderBy("createdAt")
       .limit(50)
       .onSnapshot((snapshot) => {
