@@ -112,9 +112,14 @@ button {
     margin-top: -7px;
   }
   button {
-    padding: 20px;
+ 
     font-size: 1rem;
+
   }
+  .sendbtn{
+    padding: 10px;
+  }
+  
   .outdiv {
     margin-left: 0;
     padding: 0;
