@@ -42,7 +42,7 @@ p {
 }
 
 .received {
-  border: 1px solid lightgray;
+  border-radius: 40px 20px 40px 20px;
   background-color: #fafafa;
   border-top-left-radius: 1000px;
   float: left;
