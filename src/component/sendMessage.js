@@ -11,7 +11,7 @@ function SendMessage({ scroll }) {
         e.preventDefault()
         const { uid, photoURL } = auth.currentUser
 
-        await db.collection('chat').add({
+        await db.collection('message').add({
             text: msg,
             photoURL,
             uid,

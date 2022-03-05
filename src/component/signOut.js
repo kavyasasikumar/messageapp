@@ -9,7 +9,11 @@ function SignOut() {
       style={{
         display: "flex",
         justifyContent: "center",
+        position: "fixed",
         width: "100%",
+     
+        top: 0,
+        zIndex: "10",
       }}
     >
       <button
