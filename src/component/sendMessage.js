@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { db, auth } from '../firebases'
-import firebase from 'firebase'
+import firebase from "firebase/compat/app";
 import "../App.css"
 
 
