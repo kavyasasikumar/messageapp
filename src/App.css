@@ -95,6 +95,10 @@ button {
     height: 35px;
     margin-top: -10px;
   }
+  .sendbtn{
+    padding:10px 5px 10px 5px;
+   
+   }
 }
 
 @media (max-width: 500px) {
@@ -116,9 +120,7 @@ button {
     font-size: 1rem;
 
   }
-  .sendbtn{
-    padding-right: 10px;
-  }
+  
   
   .outdiv {
     margin-left: 0;
